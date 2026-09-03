@@ -20,6 +20,12 @@
   F_Name = "John"
   # String Value
   
+  What will be the output of the following code?
+   print("Python is \"awesome\"")
+  Python is  "awesome" why?
+  Because The backslash \ tells Python to print the quotation marks rather than ending the text block. Without it, the extra quotes confuse Python and cause a crash. It ensures the final screen output
+  successfully displays Python is "awesome".
+  
 * Indexing
   Accesses character at a specific index.	Example:
   my_string="Hello"
