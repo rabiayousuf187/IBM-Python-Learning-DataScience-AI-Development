@@ -1,4 +1,4 @@
-*Package/Method	Description	Code Example**
+* Package/Method	Description	Code Example**
 * Comments: 
   Comments are lines of text that are ignored by the Python interpreter when executing the code<./td>
   Example: #This is a comment
