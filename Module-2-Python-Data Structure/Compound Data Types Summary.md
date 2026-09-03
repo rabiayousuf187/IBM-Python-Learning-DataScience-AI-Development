@@ -21,7 +21,7 @@ shopping_cart[0] = "orange"
 
 * ##  Tuples (Protected fixed collection)
 gps_coordinates = (40.7128, -74.0060)
-# Note: Single item tuples require a trailing comma: single_item = ("data",)
+### Note: Single item tuples require a trailing comma: single_item = ("data",)
 
 * ##  Dictionaries (Labeled lookup collection)
 user_profile = {"username": "coder123", "age": 25}
