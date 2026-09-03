@@ -1,5 +1,5 @@
 
-## Compound Data Types
+# Compound Data Types
 A compound data type groups multiple individual items or values together into a single container variable structure.
 
 ### Core Containers Summary
