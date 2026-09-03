@@ -15,18 +15,18 @@ A compound data type groups multiple individual items or values together into a 
 
 ### Basic Structural Code Snippets
 
-* # Lists (Modifiable collection)
+* ##  Lists (Modifiable collection)
 shopping_cart = ["apple", "banana"]
 shopping_cart[0] = "orange" 
 
-* # Tuples (Protected fixed collection)
+* ##  Tuples (Protected fixed collection)
 gps_coordinates = (40.7128, -74.0060)
 # Note: Single item tuples require a trailing comma: single_item = ("data",)
 
-* # Dictionaries (Labeled lookup collection)
+* ##  Dictionaries (Labeled lookup collection)
 user_profile = {"username": "coder123", "age": 25}
 print(user_profile["username"])
 
-* # Sets (Unique distinct collection)
+* ## Sets (Unique distinct collection)
 unique_ids = {101, 102, 101} # Automatically parses out duplicates down to {101, 102}
 
