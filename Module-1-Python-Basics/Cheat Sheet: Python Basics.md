@@ -44,7 +44,12 @@
 * upper()	Converts string to uppercase.	Example:
   my_string="Hello"
   uppercase_text = my_string.upper() 
-  
+
+  * title()	Converts string to title case as every first letter of word cap and overall small case.	Example:
+  my_string="data science, artifical intelligence"
+  titlecase_text = my_string.title()
+  Data Science, Artifical Intelligence
+
 * print()	Prints the message or variable inside `()`.	Example:
   print("Hello, world") print(a+b)
   
@@ -78,8 +83,10 @@
   split_text = my_string.split(",")
   
 * strip()	Removes leading/trailing whitespace.	Example:
-  my_string="Hello"
-  trimmed = my_string.strip() 
+  text = "   Hello, World!   \n"
+  cleaned_text = text.strip()
+  print(cleaned_text)
+  Output: "Hello, World
 
 * Variable Assignment	Assigns a value to a variable.	Syntax:
   variable_name = value 
