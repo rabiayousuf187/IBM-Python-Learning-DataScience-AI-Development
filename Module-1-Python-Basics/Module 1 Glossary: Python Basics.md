@@ -3,7 +3,7 @@
 
 Welcome! This alphabetized glossary contains many of the terms you'll find within this module. This comprehensive glossary also includes additional industry-recognized terms not used in course videos. These terms are important for you to recognize when working in the industry, participating in user groups, and participating in other certificate programs.
 
-Definition:
+# Definition:
 
 * # AI
 AI (artificial intelligence) is the ability of a digital computer or computer-controlled robot to perform tasks commonly associated with intelligent beings.
