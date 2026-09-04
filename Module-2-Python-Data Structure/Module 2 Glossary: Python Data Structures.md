@@ -67,8 +67,8 @@ In python, this is converting one data type to another.
 * # Variables
 In python, a variable is a symbolic name or identifier used to store and manipulate data. Variables serve as containers for values, and these values can be of various data types, including numbers, strings, lists, and more.
 
-Venn diagram
+* # Venn diagram
 A Venn diagram is a graphical representation that uses overlapping circles to illustrate the relationships and commonalities between sets or groups of items.
 
-Versatile data
+* # Versatile data
 Versatile data, in a general context, refers to data that can be used in multiple ways, is adaptable to different applications or purposes, and is not restricted to a specific use case.
