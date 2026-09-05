@@ -3,13 +3,13 @@
 
 ## Objectives
 In this reading, you'll learn about:
-•	Describe the function concept and the importance of functions in programming
-•	Write a function that takes inputs and performs tasks
-•	Use built-in functions like len(), sum(), and others effectively
-•	Define and use your functions in Python
-•	Differentiate between global and local variable scopes
-•	Use loops within the function
-•	Modify data structures using functions
+*	Describe the function concept and the importance of functions in programming
+*	Write a function that takes inputs and performs tasks
+*	Use built-in functions like len(), sum(), and others effectively
+*	Define and use your functions in Python
+*	Differentiate between global and local variable scopes
+*	Use loops within the function
+*	Modify data structures using functions
 
 
 ## Introduction to functions
@@ -18,13 +18,13 @@ A function is a fundamental building block that encapsulates specific actions or
 ## Purpose of functions
 Functions promote code modularity and reusability. Imagine you have a task that needs to be performed multiple times within a program. Instead of duplicating the same code at various places, you can define a function once and call it whenever you need that task. This reduces redundancy and makes the code easier to manage and maintain.
 ### Benefits of using functions
-•	**Modularity:** Functions break down complex tasks into manageable components
-•	**Reusability:** Functions can be used multiple times without rewriting code
-•	**Readability:** Functions with meaningful names enhance code understanding
-•	**Debugging:** Isolating functions eases troubleshooting and issue fixing
-•	**Abstraction:** Functions simplify complex processes behind a user-friendly interface
-•	**Collaboration:** Team members can work on different functions concurrently
-•	**Maintenance:** Changes made in a function automatically apply wherever it's used
+*	**Modularity:** Functions break down complex tasks into manageable components
+*	**Reusability:** Functions can be used multiple times without rewriting code
+*	**Readability:** Functions with meaningful names enhance code understanding
+*	**Debugging:** Isolating functions eases troubleshooting and issue fixing
+*	**Abstraction:** Functions simplify complex processes behind a user-friendly interface
+*	**Collaboration:** Team members can work on different functions concurrently
+*	**Maintenance:** Changes made in a function automatically apply wherever it's used
      
 ## How functions take inputs, perform tasks, and produce outputs
 ### Inputs (Parameters)
@@ -52,14 +52,14 @@ Python has a rich set of built-in functions that provide a wide range of functio
 To use a built-in function, you simply call the function's name followed by parentheses. Any required arguments or parameters are passed into the function within these parentheses. The function then performs its predefined task and may return an output you can use in your code.
 
 ### Here are a few examples of commonly used built-in functions:
-•	**len():** Calculates the length of a sequence or collection
+*	**len():** Calculates the length of a sequence or collection
      string_length = len("Hello, World!")  # Output: 13
      list_length = len([1, 2, 3, 4, 5])   # Output: 5
 
-•	**sum():** Adds up the elements in an iterable (list, tuple, and so on)
+*	**sum():** Adds up the elements in an iterable (list, tuple, and so on)
      total = sum([10, 20, 30, 40, 50])  # Output: 150
 
-•	**max():** Returns the maximum value in an iterable
+*	**max():** Returns the maximum value in an iterable
      highest = max([5, 12, 8, 23, 16])  # Output: 23
 
 
@@ -75,16 +75,16 @@ def function_name():
 
 A "pass" statement in a programming function is a placeholder or a no-op (no operation) statement. Use it when you want to define a function or a code block syntactically but do not want to specify any functionality or implementation at that moment.
 
-•	Placeholder: "pass" acts as a temporary placeholder for future code that you intend to write within a function or a code block.
+*	Placeholder: "pass" acts as a temporary placeholder for future code that you intend to write within a function or a code block.
 
-•	Syntax Requirement: In many programming languages like Python, using "pass" is necessary when you define a function or a conditional block. It ensures that the code remains syntactically correct, even if it doesn't do anything yet.
+*	Syntax Requirement: In many programming languages like Python, using "pass" is necessary when you define a function or a conditional block. It ensures that the code remains syntactically correct, even if it doesn't do anything yet.
 
-•	No Operation: "pass" itself doesn't perform any meaningful action. When the interpreter encounters "pass", it simply moves on to the next statement without executing any code.
+*	No Operation: "pass" itself doesn't perform any meaningful action. When the interpreter encounters "pass", it simply moves on to the next statement without executing any code.
 
 ### Function Parameters:
-•	Parameters are like inputs for functions
-•	They go inside parentheses when defining the function
-•	Functions can have multiple parameters
+*	Parameters are like inputs for functions
+*	They go inside parentheses when defining the function
+*	Functions can have multiple parameters
 
 def greet(name):
     return "Hello, " + name
@@ -93,9 +93,9 @@ result = greet("Alice")
 print(result)  # Output: Hello, Alice
 
 ### Docstrings (Documentation Strings):
-•	Docstrings explain what a function does
-•	Placed inside triple quotes under the function definition
-•	Helps other developers understand your function
+*	Docstrings explain what a function does
+*	Placed inside triple quotes under the function definition
+*	Helps other developers understand your function
 
 
 def multiply(a, b):
@@ -108,9 +108,9 @@ def multiply(a, b):
 multiply(2,6)
 
 ### Return Statement:
-•	Return gives back a value from a function
-•	Ends the function's execution and sends the result
-•	A function can return various types of data
+*	Return gives back a value from a function
+*	Ends the function's execution and sends the result
+*	A function can return various types of data
 
 def add(a, b):
     return a + b
@@ -119,8 +119,8 @@ sum_result = add(3, 5)  # sum_result gets the value 8
 
 ## Understanding scopes and variables
 Scope is where a variable can be seen and used:
-•	Global Scope: Variables defined outside functions; accessible everywhere
-•	Local Scope: Variables inside functions; only usable within that function
+*	Global Scope: Variables defined outside functions; accessible everywhere
+*	Local Scope: Variables inside functions; only usable within that function
 
 ### Part 1: Global variable declaration
 global_variable = "I'm global"
@@ -136,8 +136,8 @@ def example_function():
 
 Here, you define a function called example_function().
 Within this function:
-•	A local variable named local_variable is declared and initialized with the string value "I'm local." This variable is local to the function and can only be accessed within the function's scope.
-•	The function then prints the values of both the global variable (global_variable) and the local variable (local_variable). It demonstrates that you can access global and local variables within a function.
+*	A local variable named local_variable is declared and initialized with the string value "I'm local." This variable is local to the function and can only be accessed within the function's scope.
+*	The function then prints the values of both the global variable (global_variable) and the local variable (local_variable). It demonstrates that you can access global and local variables within a function.
 
 ### Part 3: Function call
 example_function()
@@ -196,8 +196,8 @@ def add_element(data_structure, element):
 
 
 Here, you define a function called add_element. This function takes two parameters:
-•	data_structure: This parameter represents the list to which you want to add an element
-•	element: This parameter represents the element you want to add to the list
+*	data_structure: This parameter represents the list to which you want to add an element
+*	element: This parameter represents the element you want to add to the list
 Inside the function, you use the append method to add the provided element to the data_structure, which is assumed to be a list.
 
 
@@ -210,8 +210,8 @@ def remove_element(data_structure, element):
         print(f"{element} not found in the list.")
 
 In this part, you define another function called remove_element. It also takes two parameters:
-•	data_structure: The list from which we want to remove an element
-•	element: The element we want to remove from the list
+*	data_structure: The list from which we want to remove an element
+*	element: The element we want to remove from the list
 Inside the function, you use conditional statements to check if the element is present in the data_structure. If it is, you use the remove method to remove the first occurrence of the element. If it's not found, you print a message indicating that the element was not found in the list.
 
 ### Part 4: Add elements to the list
